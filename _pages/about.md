@@ -13,6 +13,29 @@ My current work develops methods for improving contour accuracy in robotic milli
 
 I have authored five peer-reviewed journal articles, including four first-author papers in robotics and manufacturing journals such as *The International Journal of Robotics Research* and *Robotics and Computer-Integrated Manufacturing*. My work also includes Chinese national invention patents on robotic precision manufacturing, adaptive vibration suppression, and digital twin systems.
 
+Selected highlights
+======
+<div class="homepage-highlights">
+  <div>
+    <strong>5</strong>
+    <span>peer-reviewed journal articles</span>
+  </div>
+  <div>
+    <strong>4</strong>
+    <span>first-author papers in robotics and manufacturing</span>
+  </div>
+  <div>
+    <strong>5</strong>
+    <span>Chinese national invention patents</span>
+  </div>
+</div>
+
+Selected publications
+======
+* **IJRR**: [Design of a novel two-DOF robotic active vibration suppression system based on dynamic decoupling and pose-dependent dynamics]({{ site.baseurl }}/publication/2025-active-vibration-suppression-system)
+* **RCIM**: [Processing accuracy improvement of robotic ball-end milling by simultaneously optimizing tool orientation and robotic redundancy]({{ site.baseurl }}/publication/2025-tool-orientation-robotic-redundancy)
+* **RCIM**: [A contour error prediction method for tool path correction using a multi-feature hybrid model in robotic milling systems]({{ site.baseurl }}/publication/2025-contour-error-prediction-tool-path-correction)
+
 Research interests
 ======
 * Robotic milling and precision manufacturing

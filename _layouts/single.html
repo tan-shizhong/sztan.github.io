@@ -36,6 +36,8 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.collection == 'publications' and page.category == 'under-review' %}
+          <p>Under review at <i>{{ page.venue }}</i></p>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
@@ -46,6 +48,31 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {{ content }}
+
+        {% if page.collection == 'publications' %}
+          {% if page.authors %}
+            <p class="publication-authors">{{ page.authors }}</p>
+          {% endif %}
+          <p class="publication-venue">
+            {% if page.category == 'under-review' %}
+              <span class="publication-status">Under review</span>
+            {% endif %}
+            {% if page.venue %}<i>{{ page.venue }}</i>{% endif %}{% if page.date %}, {{ page.date | default: "1900-01-01" | date: "%Y" }}{% endif %}
+          </p>
+          <p class="publication-links">
+            {% assign doi_url = page.doi | prepend: "https://doi.org/" %}
+            {% if page.doi %}
+              <a href="{{ doi_url }}" target="_blank" rel="noopener">DOI</a>
+            {% endif %}
+            {% if page.paperurl and page.paperurl != doi_url %}
+              <a href="{{ page.paperurl }}" target="_blank" rel="noopener">Paper</a>
+            {% endif %}
+            {% if page.bibtexurl %}
+              <a href="{{ page.bibtexurl }}" target="_blank" rel="noopener">BibTeX</a>
+            {% endif %}
+            <a href="{{ base_path }}/publications/">All publications</a>
+          </p>
+        {% endif %}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>

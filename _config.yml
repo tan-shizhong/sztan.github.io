@@ -23,7 +23,7 @@ repository               : "tan-shizhong/sztan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Shizhong Tan"
   pronouns         : # example: "she/her"  
   bio              : "Doctoral researcher in mechatronic engineering, robotic milling, robot dynamics, and intelligent error compensation."

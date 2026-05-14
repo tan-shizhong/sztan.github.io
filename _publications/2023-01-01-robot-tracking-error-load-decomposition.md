@@ -6,7 +6,10 @@ permalink: /publication/2023-robot-tracking-error-load-decomposition
 excerpt: "First-author journal article on pose-dependent load decomposition for robot tracking-error prediction and compensation."
 date: 2023-01-01
 venue: "Robotics and Computer-Integrated Manufacturing"
-citation: "Shizhong Tan, Jixiang Yang, and Han Ding. (2023). &quot;A prediction and compensation method of robot tracking error considering pose-dependent load decomposition.&quot; <i>Robotics and Computer-Integrated Manufacturing</i>, 80, 102476."
+authors: "<strong>Shizhong Tan</strong>, Jixiang Yang, and Han Ding"
+doi: "10.1016/j.rcim.2022.102476"
+paperurl: "https://doi.org/10.1016/j.rcim.2022.102476"
+citation: "<strong>Shizhong Tan</strong>, Jixiang Yang, and Han Ding. (2023). &quot;A prediction and compensation method of robot tracking error considering pose-dependent load decomposition.&quot; <i>Robotics and Computer-Integrated Manufacturing</i>, 80, 102476."
 ---
 
 First-author paper in *Robotics and Computer-Integrated Manufacturing* on predicting and compensating robot tracking error while considering pose-dependent load decomposition.
