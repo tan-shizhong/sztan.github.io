@@ -12,10 +12,12 @@ paperurl: "https://doi.org/10.1016/j.rcim.2024.102904"
 citation: "<strong>Shizhong Tan</strong>, Jixiang Yang, and Han Ding. (2025). &quot;Processing accuracy improvement of robotic ball-end milling by simultaneously optimizing tool orientation and robotic redundancy.&quot; <i>Robotics and Computer-Integrated Manufacturing</i>, 93, 102904."
 ---
 
+<!--
 <figure class="paper-figure">
   <img src="{{ site.baseurl }}/images/publications/tool-orientation-redundancy.svg" alt="Conceptual diagram of tool orientation and robot redundancy optimization for ball-end milling">
   <figcaption>Tool orientation and robotic redundant angle are optimized together to minimize deformation error at the actual tool tip.</figcaption>
 </figure>
+-->
 
 ## Short summary
 

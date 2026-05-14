@@ -12,10 +12,12 @@ paperurl: "https://doi.org/10.1016/j.rcim.2022.102476"
 citation: "<strong>Shizhong Tan</strong>, Jixiang Yang, and Han Ding. (2023). &quot;A prediction and compensation method of robot tracking error considering pose-dependent load decomposition.&quot; <i>Robotics and Computer-Integrated Manufacturing</i>, 80, 102476."
 ---
 
+<!--
 <figure class="paper-figure">
   <img src="{{ site.baseurl }}/images/publications/tracking-error-load.svg" alt="Conceptual workflow for pose-dependent load decomposition and robot tracking-error compensation">
   <figcaption>Pose-dependent terminal-load effects are decomposed into joint-level features, used to predict tracking error, and pre-compensated in the robot motion command.</figcaption>
 </figure>
+-->
 
 ## Short summary
 

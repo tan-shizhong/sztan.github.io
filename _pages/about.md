@@ -7,9 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a doctoral researcher in mechatronic engineering at the School of Mechanical Science and Engineering, Huazhong University of Science and Technology. My research focuses on high-precision robotic milling for large-scale aerospace components, working across robot dynamics, machine learning, control engineering, and intelligent manufacturing.
+I am a doctoral researcher in mechatronic engineering at the School of Mechanical Science and Engineering, Huazhong University of Science and Technology. My research focuses on high-precision robotic machining, robot dynamics, intelligent error compensation, and adaptive manufacturing for large-scale aerospace components.
 
-My current work develops methods for improving contour accuracy in robotic milling of complex deep-cavity casings. I have built Lie-theory-based kinematics-dynamics models with joint compliance, fast calculation methods for tool-tip force-induced deformation and cutting forces, and optimization strategies for robot redundancy angles and tool orientations. I also study intelligent error prediction and compensation by combining robot kinematic features with in-situ structured-light visual measurements.
+My current work develops modeling, sensing, and control methods that improve the accuracy and robustness of robotic milling. I have studied pose-dependent robot dynamics, joint compliance, tool-tip deformation, vibration suppression, and contour-error prediction by combining physical modeling with machine learning and in-situ visual measurements.
+
+Looking forward, I aim to extend my work from precision robotic machining toward embodied intelligent manufacturing. My long-term research goal is to enable industrial robots to perceive complex real-world machining conditions, understand process states, and adaptively optimize their motion, force, vibration, tool-path, and process parameters under changing tasks, materials, fixtures, and environments.
 
 I have authored five peer-reviewed journal articles, including four first-author papers in robotics and manufacturing journals such as *The International Journal of Robotics Research* and *Robotics and Computer-Integrated Manufacturing*. My work also includes Chinese national invention patents on robotic precision manufacturing, adaptive vibration suppression, and digital twin systems.
 
@@ -28,6 +30,10 @@ Selected highlights
     <strong>5</strong>
     <span>Chinese national invention patents</span>
   </div>
+  <div>
+    <strong>Adaptive machining</strong>
+    <span>robot dynamics, embodied perception, and AI-driven optimization</span>
+  </div>
 </div>
 
 Selected publications
@@ -38,11 +44,13 @@ Selected publications
 
 Research interests
 ======
-* Robotic milling and precision manufacturing
-* Robot dynamics, joint compliance, and parameter identification
-* Intelligent contour-error prediction and compensation
-* Vision fusion and closed-loop machining accuracy control
-* Active vibration suppression for industrial robots
+* High-precision robotic machining and adaptive manufacturing
+* Robot dynamics, joint compliance, stiffness modeling, and parameter identification
+* Embodied perception for robotic manufacturing under complex real-world conditions
+* Physics-guided AI for machining-process modeling, uncertainty-aware prediction, and error compensation
+* Vision-force-vibration fusion for closed-loop machining accuracy control
+* Adaptive optimization of robot posture, tool path, force, vibration, and process parameters
+* Generalizable robotic manufacturing skills for changing tasks, materials, fixtures, and environments
 
 Contact
 ======

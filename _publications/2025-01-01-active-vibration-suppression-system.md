@@ -12,10 +12,12 @@ paperurl: "https://doi.org/10.1177/02783649261423559"
 citation: "<strong>Shizhong Tan</strong>, Xu Tang, Jixiang Yang, and Han Ding. (2026). &quot;Design of a novel two-DOF robotic active vibration suppression system based on dynamic decoupling and pose-dependent dynamics.&quot; <i>The International Journal of Robotics Research</i>, 02783649261423559."
 ---
 
+<!--
 <figure class="paper-figure">
   <img src="{{ site.baseurl }}/images/publications/active-vibration-suppression.svg" alt="Conceptual diagram of a two-DOF active vibration suppressor for robotic milling">
   <figcaption>A two-DOF electromagnetic suppressor applies controlled forces while a pose-aware controller adapts gains across the robot workspace.</figcaption>
 </figure>
+-->
 
 ## Short summary
 

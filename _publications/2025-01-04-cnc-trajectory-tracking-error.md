@@ -12,10 +12,12 @@ paperurl: "https://doi.org/10.1007/s11431-024-2785-y"
 citation: "Yinxin Guan, Jixiang Yang, <strong>Shizhong Tan</strong>, and Han Ding. (2025). &quot;A data-driven rolling optimization method for trajectory tracking error prediction of CNC machine tools.&quot; <i>Science China Technological Sciences</i>, 68(1), 1120301."
 ---
 
+<!--
 <figure class="paper-figure">
   <img src="{{ site.baseurl }}/images/publications/cnc-rolling-optimization.svg" alt="Conceptual diagram of rolling optimization for CNC trajectory tracking-error prediction">
   <figcaption>Common temporal features are retained while the output mapping is quickly updated as feed-drive characteristics change over time.</figcaption>
 </figure>
+-->
 
 ## Short summary
 

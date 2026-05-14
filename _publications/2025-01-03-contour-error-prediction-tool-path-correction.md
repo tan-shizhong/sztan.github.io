@@ -12,10 +12,12 @@ paperurl: "https://doi.org/10.1016/j.rcim.2024.102936"
 citation: "<strong>Shizhong Tan</strong>, Congcong Ye, Chengxing Wu, Jixiang Yang, and Han Ding. (2025). &quot;A contour error prediction method for tool path correction using a multi-feature hybrid model in robotic milling systems.&quot; <i>Robotics and Computer-Integrated Manufacturing</i>, 93, 102936."
 ---
 
+<!--
 <figure class="paper-figure">
   <img src="{{ site.baseurl }}/images/publications/contour-error-prediction.svg" alt="Conceptual workflow for multi-feature contour-error prediction and robotic milling tool-path correction">
   <figcaption>Robot posture, stiffness, and scanned stock allowance are fused into a structured dataset for contour-error prediction and tool-path correction.</figcaption>
 </figure>
+-->
 
 ## Short summary
 
