@@ -1,152 +1,189 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Shizhong Tan",
+    "label": "Doctoral Researcher in Mechatronic Engineering",
+    "email": "tsz@hust.edu.cn",
+    "phone": "+86 18774002838",
+    "website": "https://tan-shizhong.github.io/sztan.github.io",
+    "summary": "Doctoral researcher at Huazhong University of Science and Technology working on high-precision robotic milling for large-scale aerospace components, with interests in robot dynamics, machine learning, control engineering, contour-error compensation, and intelligent manufacturing.",
     "location": {
-      "address": "",
+      "address": "School of Mechanical Science and Engineering, Huazhong University of Science and Technology",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Wuhan",
+      "countryCode": "CN",
+      "region": "Hubei"
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "username": "Shizhong Tan",
+        "url": "https://scholar.google.com/citations?user=nxyLEQoAAAAJ&hl=zh-CN"
       },
       {
         "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "username": "0000-0001-5816-425X",
+        "url": "https://orcid.org/0000-0001-5816-425X"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "tan-shizhong",
+        "url": "https://github.com/tan-shizhong"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "Huazhong University of Science and Technology",
+      "area": "Doctor of Mechatronic Engineering",
+      "studyType": "Doctorate",
+      "startDate": "2020-09",
+      "endDate": "Expected 2026-06",
       "gpa": null,
-      "courses": []
+      "courses": [
+        "Dissertation: Research on Methods for Improving Contour Accuracy in Robotic Milling of Complex Deep-Cavity Casing",
+        "Supervisors: Prof. Jixiang Yang and Prof. Han Ding"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "institution": "Central South University",
+      "area": "Bachelor of Mechanical Design and Manufacturing Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2016-09",
+      "endDate": "2020-06",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "Python",
+        "C++",
+        "MATLAB",
+        "PyTorch"
+      ]
+    },
+    {
+      "name": "Software",
+      "keywords": [
+        "ROS",
+        "UG",
+        "SolidWorks",
+        "Linux"
+      ]
+    },
+    {
+      "name": "Hardware Platforms",
+      "keywords": [
+        "KUKA industrial robots",
+        "ABB industrial robots",
+        "UR industrial robots",
+        "Force sensors",
+        "Acceleration sensors",
+        "Laser trackers"
+      ]
+    }
+  ],
   "languages": [],
-  "interests": [],
-  "references": [],
+  "interests": [
+    {
+      "name": "Research Interests",
+      "keywords": [
+        "Robotic milling",
+        "Robot dynamics",
+        "Intelligent error compensation",
+        "Vision fusion",
+        "Active vibration suppression",
+        "Smart manufacturing"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Prof. Han Ding",
+      "reference": "Professor, School of Mechanical Science and Engineering, Huazhong University of Science and Technology. Email: dinghan@hust.edu.cn. Relationship: Ph.D. co-supervisor."
+    },
+    {
+      "name": "Prof. Jixiang Yang",
+      "reference": "Professor, School of Mechanical Science and Engineering, Huazhong University of Science and Technology. Email: jixiangyang@hust.edu.cn. Relationship: Ph.D. supervisor."
+    }
+  ],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Design of a novel two-DOF robotic active vibration suppression system based on dynamic decoupling and pose-dependent dynamics",
+      "publisher": "The International Journal of Robotics Research",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "First-author journal article. IF: 5.0, top tier in robotics."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "A prediction and compensation method of robot tracking error considering pose-dependent load decomposition",
+      "publisher": "Robotics and Computer-Integrated Manufacturing",
+      "releaseDate": "2023",
+      "website": "",
+      "summary": "First-author journal article, 80:102476. IF: 11.4, cited 81 times in the source CV."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Processing accuracy improvement of robotic ball-end milling by simultaneously optimizing tool orientation and robotic redundancy",
+      "publisher": "Robotics and Computer-Integrated Manufacturing",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "First-author journal article, 93:102904. IF: 11.4."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "A contour error prediction method for tool path correction using a multi-feature hybrid model in robotic milling systems",
+      "publisher": "Robotics and Computer-Integrated Manufacturing",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "First-author journal article, 93:102936. IF: 11.4."
+    },
+    {
+      "name": "A data-driven rolling optimization method for trajectory tracking error prediction of CNC machine tools",
+      "publisher": "Science China Technological Sciences",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "Co-authored journal article, 68(1):1120301. IF: 4.9."
+    },
+    {
+      "name": "Lie-Theory-Based Robots Unified Kinematics-Dynamics Modeling and Iterative Parameter Identification Considering Joint Compliance",
+      "publisher": "IEEE Transactions on Robotics",
+      "releaseDate": "Under review",
+      "website": "",
+      "summary": "Manuscript under review."
+    },
+    {
+      "name": "A novel data-driven prediction and compensation method for robot contour errors considering the joint dynamics",
+      "publisher": "IEEE/ASME Transactions on Mechatronics",
+      "releaseDate": "Under review",
+      "website": "",
+      "summary": "Manuscript under review."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "name": "Positioning accuracy improvement of robotic ball-end milling by simultaneously optimizing the tool orientation and robotic redundance",
+      "event": "The 20th International Manufacturing Conference in China",
+      "date": "2023",
+      "location": "Chongqing, China",
+      "description": "Oral presentation. Second Prize Paper."
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
+      "name": "Unified optimization of tool orientation and redundancy angles in robotic ball-end milling",
+      "event": "Doctoral Workshop 2024 (Session III), China Graphics Society",
+      "date": "2024",
+      "location": "Online",
+      "description": "Oral presentation."
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "Active vibration suppression system design for industrial robots based on dynamic decoupling and pose-dependent dynamics",
+      "event": "The 6th Annual Conference of China Robotics Society",
+      "date": "2025",
+      "location": "Changsha, China",
+      "description": "Poster presentation."
     }
   ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "teaching": [],
+  "portfolio": []
 }
