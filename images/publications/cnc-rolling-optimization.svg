@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Rolling optimization for CNC tracking-error prediction</title>
+  <desc id="desc">A schematic showing a feed-drive model adapting to time-varying CNC dynamics through partial weight freezing and rolling optimization.</desc>
+  <rect width="900" height="360" fill="#fbfbf8"/>
+  <rect x="70" y="95" width="210" height="170" rx="10" fill="#ffffff" stroke="#b8d7df" stroke-width="2"/>
+  <text x="175" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#244b58">Feed-drive data</text>
+  <polyline points="105,215 135,180 165,205 195,150 225,190 250,168" fill="none" stroke="#2f7f93" stroke-width="5"/>
+  <text x="175" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#57717a">time-varying dynamics</text>
+  <rect x="350" y="70" width="220" height="220" rx="10" fill="#ffffff" stroke="#b8d7df" stroke-width="2"/>
+  <text x="460" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#244b58">LSTM-FC model</text>
+  <rect x="390" y="142" width="140" height="42" rx="21" fill="#d8eef3"/>
+  <text x="460" y="169" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#244b58">frozen features</text>
+  <rect x="390" y="205" width="140" height="42" rx="21" fill="#f8c471"/>
+  <text x="460" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#244b58">updated output</text>
+  <rect x="650" y="95" width="210" height="170" rx="10" fill="#ffffff" stroke="#b8d7df" stroke-width="2"/>
+  <text x="755" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#244b58">Fast adaptation</text>
+  <text x="755" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#57717a">lower error</text>
+  <text x="755" y="202" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#57717a">less retraining time</text>
+  <path d="M292 180 H335" stroke="#7a8288" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M585 180 H635" stroke="#7a8288" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M510 284 C455 328, 370 310, 378 236" fill="none" stroke="#7a8288" stroke-width="3" stroke-dasharray="8 8" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#7a8288"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Two-DOF active vibration suppression for robotic milling</title>
+  <desc id="desc">A schematic of robotic milling vibration suppression using a two-degree-of-freedom electromagnetic suppressor and pose-adaptive control.</desc>
+  <rect width="900" height="360" fill="#f8fbfa"/>
+  <rect x="64" y="250" width="250" height="32" rx="6" fill="#cfd8dc"/>
+  <path d="M120 250 L185 105 L250 250" fill="#e6f4f1" stroke="#2f7f93" stroke-width="5"/>
+  <circle cx="185" cy="105" r="13" fill="#2f7f93"/>
+  <line x1="185" y1="105" x2="310" y2="160" stroke="#455a64" stroke-width="7"/>
+  <rect x="304" y="145" width="55" height="35" rx="5" fill="#f8c471"/>
+  <line x1="357" y1="166" x2="430" y2="166" stroke="#455a64" stroke-width="5"/>
+  <path d="M430 166 q22 -30 44 0 q22 30 44 0 q22 -30 44 0" fill="none" stroke="#d35400" stroke-width="5"/>
+  <circle cx="520" cy="166" r="52" fill="#ffffff" stroke="#2f7f93" stroke-width="4"/>
+  <line x1="520" y1="118" x2="520" y2="214" stroke="#2f7f93" stroke-width="4"/>
+  <line x1="472" y1="166" x2="568" y2="166" stroke="#2f7f93" stroke-width="4"/>
+  <text x="520" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#244b58">2-DOF EDVS</text>
+  <rect x="650" y="80" width="190" height="200" rx="10" fill="#ffffff" stroke="#b8d7df" stroke-width="2"/>
+  <text x="745" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#244b58">Adaptive control</text>
+  <text x="745" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#57717a">GPR modal map</text>
+  <text x="745" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#57717a">force decoupling</text>
+  <text x="745" y="206" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#57717a">time-varying LQR</text>
+  <path d="M610 166 H642" stroke="#7a8288" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M705 280 C630 320, 470 316, 385 195" fill="none" stroke="#7a8288" stroke-width="3" stroke-dasharray="8 8" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#7a8288"/>
+    </marker>
+  </defs>
+</svg>

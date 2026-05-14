@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Tool orientation and robot redundancy optimization</title>
+  <desc id="desc">A schematic of ball-end milling where tool orientation and robot redundant angle are optimized to reduce tool-tip deformation.</desc>
+  <rect width="900" height="360" fill="#fbfaf7"/>
+  <path d="M70 270 C190 185, 320 300, 450 220 C585 138, 690 240, 830 170 L830 300 L70 300 Z" fill="#dfe8eb" stroke="#91a4ad" stroke-width="3"/>
+  <path d="M190 78 L310 198" stroke="#455a64" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="320" cy="208" r="27" fill="#f8c471" stroke="#d35400" stroke-width="4"/>
+  <line x1="320" y1="208" x2="420" y2="250" stroke="#2f7f93" stroke-width="6"/>
+  <circle cx="420" cy="250" r="13" fill="#2f7f93"/>
+  <path d="M430 250 q35 -45 82 -34" fill="none" stroke="#d35400" stroke-width="4" stroke-dasharray="8 8"/>
+  <text x="240" y="54" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#244b58">Tool orientation</text>
+  <text x="515" y="205" font-family="Arial, sans-serif" font-size="16" fill="#57717a">tool-tip deformation index</text>
+  <rect x="575" y="70" width="235" height="110" rx="10" fill="#ffffff" stroke="#b8d7df" stroke-width="2"/>
+  <text x="692" y="104" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#244b58">Joint optimization</text>
+  <text x="692" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#57717a">tool orientation + redundancy</text>
+  <text x="692" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#57717a">constraints + PSO search</text>
+</svg>

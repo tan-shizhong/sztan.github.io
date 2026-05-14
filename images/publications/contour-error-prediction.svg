@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Multi-feature contour-error prediction for robotic milling</title>
+  <desc id="desc">A schematic showing multi-source robotic milling features converted into contour-error prediction and tool-path correction.</desc>
+  <rect width="900" height="360" fill="#f9fbff"/>
+  <rect x="40" y="70" width="210" height="220" rx="10" fill="#ffffff" stroke="#b8d7df" stroke-width="2"/>
+  <text x="145" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#244b58">Multi-source data</text>
+  <circle cx="95" cy="165" r="25" fill="#d8eef3" stroke="#2f7f93" stroke-width="3"/>
+  <rect x="135" y="142" width="58" height="46" rx="6" fill="#f8c471"/>
+  <path d="M82 235 C115 206, 165 266, 205 226" fill="none" stroke="#2f7f93" stroke-width="4"/>
+  <text x="145" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#57717a">pose, stiffness, allowance</text>
+  <rect x="345" y="70" width="210" height="220" rx="10" fill="#ffffff" stroke="#b8d7df" stroke-width="2"/>
+  <text x="450" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#244b58">GP + CNN-BiLSTM</text>
+  <rect x="390" y="145" width="120" height="32" rx="16" fill="#d8eef3"/>
+  <rect x="380" y="195" width="140" height="32" rx="16" fill="#d8eef3"/>
+  <polyline points="392,250 420,230 448,248 476,222 508,238" fill="none" stroke="#2f7f93" stroke-width="4"/>
+  <rect x="650" y="70" width="210" height="220" rx="10" fill="#ffffff" stroke="#b8d7df" stroke-width="2"/>
+  <text x="755" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#244b58">Path correction</text>
+  <path d="M695 224 C730 145, 780 152, 825 218" fill="none" stroke="#b5b5b5" stroke-width="5" stroke-dasharray="10 9"/>
+  <path d="M695 228 C730 207, 780 197, 825 220" fill="none" stroke="#2f7f93" stroke-width="5"/>
+  <text x="755" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#57717a">lower contour error</text>
+  <path d="M260 180 H330" stroke="#7a8288" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M565 180 H635" stroke="#7a8288" stroke-width="3" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#7a8288"/>
+    </marker>
+  </defs>
+</svg>

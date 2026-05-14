@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Pose-dependent load decomposition and robot tracking-error compensation</title>
+  <desc id="desc">A schematic showing terminal load decomposition, temporal prediction, and command compensation for robotic tracking accuracy.</desc>
+  <rect width="900" height="360" fill="#f7fbfc"/>
+  <rect x="40" y="50" width="210" height="250" rx="10" fill="#ffffff" stroke="#b8d7df" stroke-width="2"/>
+  <rect x="345" y="50" width="210" height="250" rx="10" fill="#ffffff" stroke="#b8d7df" stroke-width="2"/>
+  <rect x="650" y="50" width="210" height="250" rx="10" fill="#ffffff" stroke="#b8d7df" stroke-width="2"/>
+  <text x="145" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#244b58">Robot pose</text>
+  <text x="145" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#57717a">joint position, velocity</text>
+  <path d="M110 235 L145 140 L180 235 Z" fill="#d8eef3" stroke="#2f7f93" stroke-width="3"/>
+  <circle cx="145" cy="140" r="11" fill="#2f7f93"/>
+  <circle cx="110" cy="235" r="9" fill="#2f7f93"/>
+  <circle cx="180" cy="235" r="9" fill="#2f7f93"/>
+  <line x1="145" y1="140" x2="208" y2="172" stroke="#f39c12" stroke-width="4"/>
+  <circle cx="218" cy="178" r="16" fill="#f8c471"/>
+  <text x="450" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#244b58">TCN predictor</text>
+  <text x="450" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#57717a">load-decomposed features</text>
+  <polyline points="380,225 405,185 430,210 455,150 480,194 520,160" fill="none" stroke="#2f7f93" stroke-width="5"/>
+  <rect x="380" y="245" width="140" height="18" rx="9" fill="#d8eef3"/>
+  <text x="755" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#244b58">Pre-compensation</text>
+  <text x="755" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#57717a">smaller TCP error</text>
+  <path d="M700 225 C735 150, 780 155, 820 210" fill="none" stroke="#b5b5b5" stroke-width="5" stroke-dasharray="10 9"/>
+  <path d="M700 230 C735 205, 780 195, 820 215" fill="none" stroke="#2f7f93" stroke-width="5"/>
+  <circle cx="820" cy="215" r="9" fill="#2f7f93"/>
+  <path d="M260 175 H330" stroke="#7a8288" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M565 175 H635" stroke="#7a8288" stroke-width="3" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#7a8288"/>
+    </marker>
+  </defs>
+</svg>
