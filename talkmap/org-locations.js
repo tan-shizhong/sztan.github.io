@@ -1,22 +1,17 @@
 var addressPoints = [
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.5074456,
-    -0.1277653
+    "Positioning accuracy improvement of robotic ball-end milling by simultaneously optimizing the tool orientation and robotic redundance<br />The 20th International Manufacturing Conference in China; Chongqing, China",
+    30.05518,
+    107.8748712
   ],
   [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7879363,
-    -122.4075201
+    "Unified optimization of tool orientation and redundancy angles in robotic ball-end milling<br />Doctoral Workshop 2024 (Session III), China Graphics Society; Online",
+    43.5904719,
+    3.8595132
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
-  ],
-  [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536909,
-    -118.242766
+    "Active vibration suppression system design for industrial robots based on dynamic decoupling and pose-dependent dynamics<br />The 6th Annual Conference of China Robotics Society; Changsha, China",
+    28.1450774,
+    113.2384362
   ]
 ];
